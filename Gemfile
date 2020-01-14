@@ -8,6 +8,7 @@ ruby '2.6.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'bundle'
 gem 'rails', '~> 6.0.1'
+gem 'figaro'
 # Use postgresql as the database for Active Record
 gem 'pg', '0.20.0'
 # Use Puma as the app server
