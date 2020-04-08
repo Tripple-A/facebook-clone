@@ -14,7 +14,17 @@
  *= require_self
  */
 
-.gravatar {
-  height: 30px;
+ .gravatar {
+  height: 40px;
   width: auto;
+  border-radius: 300%;
+}
+
+.card-body {
+  max-width: 450px;
+}
+
+.field{
+  width:40%;
+  margin:0px auto;
 }
