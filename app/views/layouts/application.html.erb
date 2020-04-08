@@ -18,7 +18,7 @@
     <% end %>
     <% if user_signed_in? %>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-      <h5 class="my-0 mr-md-auto font-weight-normal"><%= link_to 'CloneBook', root_path, :class => "navbar-brand" %></h5>
+      <h5 class="my-0 mr-md-auto font-weight-normal"><%= link_to image_tag('logo.png'), :class => 'mt-10',  :class => "navbar-brand" %></h5>
       <nav class="my-2 my-md-0 mr-md-3">
         <%= image_tag current_user.gravatar_url, :class => "gravatar mr-3" %> 
         <%= current_user.first_name.capitalize! %> <%= current_user.last_name.capitalize! %>

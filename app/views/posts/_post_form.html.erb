@@ -1,7 +1,9 @@
 <%= form_for @post do |f|%>
   <%= render 'devise/shared/error_messages', resource: f.object %>
-  <div class="field">
+  <div class="post_form">
     <%= f.text_field :content, placeholder: "What's on your mind?" , class: 'form-control', required: true, autocomplete: 'off'%>
+    <%= f.submit "Post", class: "btn btn-primary " %>
+    
   </div>
-  <%= f.submit "Post", class: "btn btn-primary d-none" %>
+  
 <% end %>
